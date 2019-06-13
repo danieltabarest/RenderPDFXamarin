@@ -1,0 +1,12 @@
+C:\Users\Usuario\Downloads\PDFViewTest-master\s\PDFViewTest\PDFViewTest\bin\Debug\netstandard2.0\PDFViewTest.deps.json
+C:\Users\Usuario\Downloads\PDFViewTest-master\s\PDFViewTest\PDFViewTest\bin\Debug\netstandard2.0\PDFViewTest.dll
+C:\Users\Usuario\Downloads\PDFViewTest-master\s\PDFViewTest\PDFViewTest\bin\Debug\netstandard2.0\PDFViewTest.pdb
+C:\Users\Usuario\Downloads\PDFViewTest-master\s\PDFViewTest\PDFViewTest\obj\Debug\netstandard2.0\PDFViewTest.csprojAssemblyReference.cache
+C:\Users\Usuario\Downloads\PDFViewTest-master\s\PDFViewTest\PDFViewTest\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Usuario\Downloads\PDFViewTest-master\s\PDFViewTest\PDFViewTest\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Usuario\Downloads\PDFViewTest-master\s\PDFViewTest\PDFViewTest\obj\Debug\netstandard2.0\PDFViewTest.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Downloads\PDFViewTest-master\s\PDFViewTest\PDFViewTest\obj\Debug\netstandard2.0\PDFViewTest.AssemblyInfoInputs.cache
+C:\Users\Usuario\Downloads\PDFViewTest-master\s\PDFViewTest\PDFViewTest\obj\Debug\netstandard2.0\PDFViewTest.AssemblyInfo.cs
+C:\Users\Usuario\Downloads\PDFViewTest-master\s\PDFViewTest\PDFViewTest\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Usuario\Downloads\PDFViewTest-master\s\PDFViewTest\PDFViewTest\obj\Debug\netstandard2.0\PDFViewTest.dll
+C:\Users\Usuario\Downloads\PDFViewTest-master\s\PDFViewTest\PDFViewTest\obj\Debug\netstandard2.0\PDFViewTest.pdb

@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{415670F6-740D-458F-BCA2-EF34ED4C3F72}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DisplayPDF.WinPhone81/CustomWebViewRenderer.cs">
+    <Files>
+      <File FileName="Droid/CustomWebViewRenderer.cs" Line="19" Column="183" />
+      <File FileName="DisplayPDF/CustomWebView.cs" Line="9" Column="17" />
+      <File FileName="iOS/CustomWebViewRenderer.cs" Line="18" Column="1" />
+      <File FileName="DisplayPDF.WinPhone81/CustomWebViewRenderer.cs" Line="21" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DisplayPDF" expanded="True">
+            <Node name="DisplayPDF.WinPhone81" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.DisplayPDF.Droid PreferredExecutionTarget="Android.nexus_5x" />
+  <MonoDevelop.Ide.ItemProperties.DisplayPDF.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.4674DA0D-49B4-4CDE-BE79-A4406ABFA999" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../../../../../../../../Projects/Slots.Apps.BirchmanScrum/Slots.Operator.App/Slots.Operator.App/ViewModels/MultiSelect/ItemMultiSelectViewModel.cs" line="57" offsetX="455" offsetY="952" expression="IsSelected" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
