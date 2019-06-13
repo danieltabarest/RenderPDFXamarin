@@ -1,0 +1,974 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-14NJBN4</Machine>
+    <WindowsUser>Usuario</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
+    <PackageIdentityPublisher>CN=3da58784-0378-44fd-be09-da04d3472cdd</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>A40109D4F3ADBC87F53EE8D168FBF8CF961C3C94E47377396828E3B8D17EF67D</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>844ea2d8-17a2-45d3-bae9-1300e7e11417_1.0.0.0_x86__58j3z8130re30</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>844ea2d8-17a2-45d3-bae9-1300e7e11417_58j3z8130re30!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>844ea2d8-17a2-45d3-bae9-1300e7e11417</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=3da58784-0378-44fd-be09-da04d3472cdd</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-01T12:00:52.873</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\bin\x86\Debug\GeoWorks.Mobile.UWP.exe">
+      <PackagePath>entrypoint\GeoWorks.Mobile.UWP.exe</PackagePath>
+      <Modified>2019-06-01T12:00:48.651</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\itextsharp\5.5.13\lib\itextsharp.dll">
+      <PackagePath>itextsharp.dll</PackagePath>
+      <Modified>2018-01-22T17:40:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\microsoft.net.http\2.2.29\lib\win8\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+      <Modified>2015-02-19T19:10:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\microsoft.net.http\2.2.29\lib\win8\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+      <Modified>2015-02-19T19:10:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\newtonsoft.json\12.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2019-04-21T23:06:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\plugin.permissions\3.0.0.12\lib\uap10.0.10240\Plugin.Permissions.dll">
+      <PackagePath>Plugin.Permissions.dll</PackagePath>
+      <Modified>2018-05-15T23:38:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2019-03-12T20:22:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\sautinsoft.pdffocus\7.0.3.29\lib\net461\SautinSoft.PdfFocus.dll">
+      <PackagePath>SautinSoft.PdfFocus.dll</PackagePath>
+      <Modified>2019-03-29T10:47:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\sqlite-net-pcl\1.4.118\lib\netstandard1.1\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+      <Modified>2017-07-27T14:44:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\sqlite.net-pcl\3.1.0\lib\Windows8\SQLite.Net.Platform.WinRT.dll">
+      <PackagePath>SQLite.Net.Platform.WinRT.dll</PackagePath>
+      <Modified>2015-11-05T10:08:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\sqlite.net.core-pcl\3.1.0\lib\portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1\SQLite.Net.dll">
+      <PackagePath>SQLite.Net.dll</PackagePath>
+      <Modified>2015-11-05T10:08:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\sqlitepclraw.bundle_green\1.1.5\lib\uap10.0\SQLitePCLRaw.batteries_green.dll">
+      <PackagePath>SQLitePCLRaw.batteries_green.dll</PackagePath>
+      <Modified>2017-05-01T11:27:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\sqlitepclraw.bundle_green\1.1.5\lib\uap10.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2017-05-01T11:27:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\sqlitepclraw.core\1.1.5\lib\uap10.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+      <Modified>2017-05-01T11:27:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\sqlitepclraw.lib.e_sqlite3.v140\1.1.5\runtimes\win10-x86\native\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+      <Modified>2017-05-01T11:27:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\sqlitepclraw.provider.e_sqlite3.uwp10\1.1.5\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
+      <Modified>2017-05-01T11:27:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\syncfusion.licensing\17.1.0.49\lib\uap10.0\Syncfusion.Licensing.dll">
+      <PackagePath>Syncfusion.Licensing.dll</PackagePath>
+      <Modified>2019-05-27T06:57:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\syncfusion.xamarin.compression\17.1.0.49\lib\netstandard2.0\Syncfusion.Compression.Portable.dll">
+      <PackagePath>Syncfusion.Compression.Portable.dll</PackagePath>
+      <Modified>2019-05-27T06:57:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\syncfusion.xamarin.core\17.1.0.49\lib\uap10.0\Syncfusion.Core.XForms.UWP.dll">
+      <PackagePath>Syncfusion.Core.XForms.UWP.dll</PackagePath>
+      <Modified>2019-05-27T07:34:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\syncfusion.xamarin.core\17.1.0.49\lib\uap10.0\Syncfusion.Core.XForms.dll">
+      <PackagePath>Syncfusion.Core.XForms.dll</PackagePath>
+      <Modified>2019-05-27T07:34:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\syncfusion.xamarin.pdf\17.1.0.49\lib\netstandard2.0\Syncfusion.Pdf.Portable.dll">
+      <PackagePath>Syncfusion.Pdf.Portable.dll</PackagePath>
+      <Modified>2019-05-27T06:59:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\syncfusion.xamarin.sfbusyindicator\17.1.0.49\lib\uap10.0\Syncfusion.SfBusyIndicator.UWP.dll">
+      <PackagePath>Syncfusion.SfBusyIndicator.UWP.dll</PackagePath>
+      <Modified>2019-05-27T07:07:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\syncfusion.xamarin.sfbusyindicator\17.1.0.49\lib\uap10.0\Syncfusion.SfBusyIndicator.XForms.UWP.dll">
+      <PackagePath>Syncfusion.SfBusyIndicator.XForms.UWP.dll</PackagePath>
+      <Modified>2019-05-27T07:37:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\syncfusion.xamarin.sfbusyindicator\17.1.0.49\lib\uap10.0\Syncfusion.SfBusyIndicator.XForms.dll">
+      <PackagePath>Syncfusion.SfBusyIndicator.XForms.dll</PackagePath>
+      <Modified>2019-05-27T07:36:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\syncfusion.xamarin.sfbusyindicator\17.1.0.49\lib\uap10.0\Syncfusion.SfShared.UWP.dll">
+      <PackagePath>Syncfusion.SfShared.UWP.dll</PackagePath>
+      <Modified>2019-05-27T07:07:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\syncfusion.xamarin.sfpdfviewer\17.1.0.49\lib\uap10.0\Syncfusion.SfPdfViewer.XForms.UWP.dll">
+      <PackagePath>Syncfusion.SfPdfViewer.XForms.UWP.dll</PackagePath>
+      <Modified>2019-05-27T07:46:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\syncfusion.xamarin.sfpdfviewer\17.1.0.49\lib\uap10.0\Syncfusion.SfPdfViewer.XForms.dll">
+      <PackagePath>Syncfusion.SfPdfViewer.XForms.dll</PackagePath>
+      <Modified>2019-05-27T07:45:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\syncfusion.xamarin.sfrangeslider\17.1.0.49\lib\uap10.0\Syncfusion.SfInput.UWP.dll">
+      <PackagePath>Syncfusion.SfInput.UWP.dll</PackagePath>
+      <Modified>2019-05-27T07:10:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\syncfusion.xamarin.sfrangeslider\17.1.0.49\lib\uap10.0\Syncfusion.SfRangeSlider.XForms.UWP.dll">
+      <PackagePath>Syncfusion.SfRangeSlider.XForms.UWP.dll</PackagePath>
+      <Modified>2019-05-27T07:37:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\syncfusion.xamarin.sfrangeslider\17.1.0.49\lib\uap10.0\Syncfusion.SfRangeSlider.XForms.dll">
+      <PackagePath>Syncfusion.SfRangeSlider.XForms.dll</PackagePath>
+      <Modified>2019-05-27T07:37:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\system.drawing.common\4.5.1\lib\netstandard2.0\System.Drawing.Common.dll">
+      <PackagePath>System.Drawing.Common.dll</PackagePath>
+      <Modified>2018-09-18T17:38:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\win2d.uwp\1.20.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+      <Modified>2016-11-30T01:58:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\xam.plugin.connectivity\3.2.0\lib\UAP10\Plugin.Connectivity.Abstractions.dll">
+      <PackagePath>Plugin.Connectivity.Abstractions.dll</PackagePath>
+      <Modified>2018-07-02T12:40:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\xam.plugin.connectivity\3.2.0\lib\UAP10\Plugin.Connectivity.dll">
+      <PackagePath>Plugin.Connectivity.dll</PackagePath>
+      <Modified>2018-07-02T12:40:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\xamarin.essentials\1.1.0\lib\uap10.0.16299\Xamarin.Essentials.dll">
+      <PackagePath>Xamarin.Essentials.dll</PackagePath>
+      <Modified>2019-03-15T21:29:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\xamarin.forms\4.0.0.471375\lib\uap10.0\Xamarin.Forms.Core.dll">
+      <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
+      <Modified>2019-05-29T00:56:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\xamarin.forms\4.0.0.471375\lib\uap10.0\Xamarin.Forms.Platform.UAP.dll">
+      <PackagePath>Xamarin.Forms.Platform.UAP.dll</PackagePath>
+      <Modified>2019-05-29T00:56:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\xamarin.forms\4.0.0.471375\lib\uap10.0\Xamarin.Forms.Platform.dll">
+      <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
+      <Modified>2019-05-29T00:56:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\xamarin.forms\4.0.0.471375\lib\uap10.0\Xamarin.Forms.Xaml.dll">
+      <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
+      <Modified>2019-05-29T00:56:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile\bin\Debug\netstandard2.0\GeoWorks.Mobile.dll">
+      <PackagePath>GeoWorks.Mobile.dll</PackagePath>
+      <Modified>2019-06-01T12:00:33.425</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
+      <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
+      <Modified>2016-11-30T01:58:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2018-10-23T00:33:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\ic_application.png">
+      <PackagePath>Assets\ic_application.png</PackagePath>
+      <Modified>2019-04-10T03:58:03.424</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\ic_assigned.png">
+      <PackagePath>Assets\ic_assigned.png</PackagePath>
+      <Modified>2019-04-10T03:58:03.462</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\ic_geo_works.png">
+      <PackagePath>Assets\ic_geo_works.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-10T03:58:03.487</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\ic_logo_login.png">
+      <PackagePath>Assets\ic_logo_login.png</PackagePath>
+      <Modified>2019-04-10T03:58:03.518</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\ic_logo_navigation.png">
+      <PackagePath>Assets\ic_logo_navigation.png</PackagePath>
+      <Modified>2019-04-10T03:58:03.542</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\ic_pause.png">
+      <PackagePath>Assets\ic_pause.png</PackagePath>
+      <Modified>2019-04-10T03:58:03.566</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\ic_play.png">
+      <PackagePath>Assets\ic_play.png</PackagePath>
+      <Modified>2019-04-10T03:58:03.592</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\ic_stop.png">
+      <PackagePath>Assets\ic_stop.png</PackagePath>
+      <Modified>2019-04-10T03:58:03.623</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\ic_user.png">
+      <PackagePath>Assets\ic_user.png</PackagePath>
+      <Modified>2019-04-10T03:58:03.645</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\findbarButton-next%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\findbarButton-next%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.044</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\findbarButton-next-rtl%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\findbarButton-next-rtl%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.029</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\findbarButton-next-rtl.png">
+      <PackagePath>Assets\pdfjs\web\images\findbarButton-next-rtl.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.021</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\findbarButton-next.png">
+      <PackagePath>Assets\pdfjs\web\images\findbarButton-next.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.037</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\findbarButton-previous%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\findbarButton-previous%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.080</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\findbarButton-previous-rtl%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\findbarButton-previous-rtl%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.060</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\findbarButton-previous-rtl.png">
+      <PackagePath>Assets\pdfjs\web\images\findbarButton-previous-rtl.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.053</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\findbarButton-previous.png">
+      <PackagePath>Assets\pdfjs\web\images\findbarButton-previous.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.068</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\loading-small%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\loading-small%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\loading-small.png">
+      <PackagePath>Assets\pdfjs\web\images\loading-small.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.125</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\secondaryToolbarButton-documentProperties%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\secondaryToolbarButton-documentProperties%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.154</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\secondaryToolbarButton-documentProperties.png">
+      <PackagePath>Assets\pdfjs\web\images\secondaryToolbarButton-documentProperties.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.143</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\secondaryToolbarButton-firstPage%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\secondaryToolbarButton-firstPage%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\secondaryToolbarButton-firstPage.png">
+      <PackagePath>Assets\pdfjs\web\images\secondaryToolbarButton-firstPage.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.163</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\secondaryToolbarButton-handTool%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\secondaryToolbarButton-handTool%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.194</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\secondaryToolbarButton-handTool.png">
+      <PackagePath>Assets\pdfjs\web\images\secondaryToolbarButton-handTool.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.184</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\secondaryToolbarButton-lastPage%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\secondaryToolbarButton-lastPage%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.215</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\secondaryToolbarButton-lastPage.png">
+      <PackagePath>Assets\pdfjs\web\images\secondaryToolbarButton-lastPage.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.204</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\secondaryToolbarButton-rotateCcw%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\secondaryToolbarButton-rotateCcw%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.236</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\secondaryToolbarButton-rotateCcw.png">
+      <PackagePath>Assets\pdfjs\web\images\secondaryToolbarButton-rotateCcw.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.225</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\secondaryToolbarButton-rotateCw%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\secondaryToolbarButton-rotateCw%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\secondaryToolbarButton-rotateCw.png">
+      <PackagePath>Assets\pdfjs\web\images\secondaryToolbarButton-rotateCw.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.251</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\shadow.png">
+      <PackagePath>Assets\pdfjs\web\images\shadow.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.268</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\texture.png">
+      <PackagePath>Assets\pdfjs\web\images\texture.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.276</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-bookmark%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-bookmark%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-bookmark.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-bookmark.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.283</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-download%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-download%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.306</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-download.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-download.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.299</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-menuArrows%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-menuArrows%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-menuArrows.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-menuArrows.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.313</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-openFile%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-openFile%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.338</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-openFile.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-openFile.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-pageDown%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-pageDown%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.372</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-pageDown-rtl%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-pageDown-rtl%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.355</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-pageDown-rtl.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-pageDown-rtl.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.346</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-pageDown.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-pageDown.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.363</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-pageUp%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-pageUp%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.406</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-pageUp-rtl%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-pageUp-rtl%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.389</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-pageUp-rtl.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-pageUp-rtl.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.380</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-pageUp.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-pageUp.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.397</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-presentationMode%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-presentationMode%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.427</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-presentationMode.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-presentationMode.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.415</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-print%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-print%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.442</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-print.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-print.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.435</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-search%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-search%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.461</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-search.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-search.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.450</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-secondaryToolbarToggle%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-secondaryToolbarToggle%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.490</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-secondaryToolbarToggle-rtl%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-secondaryToolbarToggle-rtl%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.476</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-secondaryToolbarToggle-rtl.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-secondaryToolbarToggle-rtl.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.469</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-secondaryToolbarToggle.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-secondaryToolbarToggle.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.483</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-sidebarToggle%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-sidebarToggle%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.522</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-sidebarToggle-rtl%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-sidebarToggle-rtl%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.506</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-sidebarToggle-rtl.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-sidebarToggle-rtl.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.497</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-sidebarToggle.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-sidebarToggle.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.514</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-viewAttachments%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-viewAttachments%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-viewAttachments.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-viewAttachments.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.530</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-viewOutline%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-viewOutline%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.571</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-viewOutline-rtl%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-viewOutline-rtl%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.555</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-viewOutline-rtl.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-viewOutline-rtl.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-viewOutline.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-viewOutline.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.563</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-viewThumbnail%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-viewThumbnail%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.590</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-viewThumbnail.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-viewThumbnail.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.582</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-zoomIn%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-zoomIn%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.635</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-zoomIn.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-zoomIn.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.627</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-zoomOut%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-zoomOut%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.650</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\toolbarButton-zoomOut.png">
+      <PackagePath>Assets\pdfjs\web\images\toolbarButton-zoomOut.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.642</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\treeitem-collapsed%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\treeitem-collapsed%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.686</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\treeitem-collapsed-rtl%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\treeitem-collapsed-rtl%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.667</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\treeitem-collapsed-rtl.png">
+      <PackagePath>Assets\pdfjs\web\images\treeitem-collapsed-rtl.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.658</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\treeitem-collapsed.png">
+      <PackagePath>Assets\pdfjs\web\images\treeitem-collapsed.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.675</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\treeitem-expanded%402x.png">
+      <PackagePath>Assets\pdfjs\web\images\treeitem-expanded%402x.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.703</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\treeitem-expanded.png">
+      <PackagePath>Assets\pdfjs\web\images\treeitem-expanded.png</PackagePath>
+      <Modified>2019-06-01T11:43:12.695</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\ic_administrator.png">
+      <PackagePath>ic_administrator.png</PackagePath>
+      <Modified>2019-05-15T05:26:50.894</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\ic_application.png">
+      <PackagePath>ic_application.png</PackagePath>
+      <Modified>2019-05-15T05:26:50.912</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\ic_assigned.png">
+      <PackagePath>ic_assigned.png</PackagePath>
+      <Modified>2019-05-15T05:26:50.916</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\ic_geo_works.png">
+      <PackagePath>ic_geo_works.png</PackagePath>
+      <Modified>2019-05-15T05:26:50.933</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\ic_launcher_disable_pause.png">
+      <PackagePath>ic_launcher_disable_pause.png</PackagePath>
+      <Modified>2019-05-16T18:10:51.807</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\ic_launcher_disable_play.png">
+      <PackagePath>ic_launcher_disable_play.png</PackagePath>
+      <Modified>2019-05-16T18:03:11.684</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\ic_launcher_disable_stop.png">
+      <PackagePath>ic_launcher_disable_stop.png</PackagePath>
+      <Modified>2019-05-16T18:14:14.826</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\ic_launcher_mail.png">
+      <PackagePath>ic_launcher_mail.png</PackagePath>
+      <Modified>2019-05-21T03:16:22.720</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\ic_logo_login.png">
+      <PackagePath>ic_logo_login.png</PackagePath>
+      <Modified>2019-04-10T03:58:03.518</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\ic_logo_navigation.png">
+      <PackagePath>ic_logo_navigation.png</PackagePath>
+      <Modified>2019-05-15T05:26:51.001</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\ic_pause.png">
+      <PackagePath>ic_pause.png</PackagePath>
+      <Modified>2019-05-15T05:26:51.017</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\ic_pause2_launcher.png">
+      <PackagePath>ic_pause2_launcher.png</PackagePath>
+      <Modified>2019-05-15T05:26:51.030</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\ic_play.png">
+      <PackagePath>ic_play.png</PackagePath>
+      <Modified>2019-05-15T05:26:51.065</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\ic_play2_launcher.png">
+      <PackagePath>ic_play2_launcher.png</PackagePath>
+      <Modified>2019-05-15T05:26:51.123</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\ic_stop.png">
+      <PackagePath>ic_stop.png</PackagePath>
+      <Modified>2019-05-15T05:26:51.175</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\ic_stop2_launcher.png">
+      <PackagePath>ic_stop2_launcher.png</PackagePath>
+      <Modified>2019-05-15T05:26:51.193</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\ic_user.png">
+      <PackagePath>ic_user.png</PackagePath>
+      <Modified>2019-05-15T05:26:51.234</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <Modified>2019-04-10T03:34:24.791</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <Modified>2019-04-10T03:34:24.793</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <Modified>2019-04-10T03:34:24.846</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <Modified>2019-04-10T03:34:24.847</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <Modified>2019-04-10T03:34:24.849</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <Modified>2019-04-10T03:34:24.851</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <Modified>2019-04-10T03:34:24.905</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <Modified>2019-04-10T03:34:24.906</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <Modified>2019-04-10T03:34:24.909</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <Modified>2019-04-10T03:34:24.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <Modified>2019-04-10T03:34:24.966</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <Modified>2019-04-10T03:34:24.968</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <Modified>2019-04-10T03:34:24.969</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <Modified>2019-04-10T03:34:24.970</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <Modified>2019-04-10T03:34:25.031</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <Modified>2019-04-10T03:34:25.033</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <Modified>2019-04-10T03:34:25.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <Modified>2019-04-10T03:34:25.036</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <Modified>2019-04-10T03:34:25.091</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <Modified>2019-04-10T03:34:25.093</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <Modified>2019-04-10T03:34:25.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <Modified>2019-04-10T03:34:25.149</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <Modified>2019-04-10T03:34:25.150</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <Modified>2019-04-10T03:34:25.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <Modified>2019-04-10T03:34:25.153</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <Modified>2019-04-10T03:34:25.208</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <Modified>2019-04-10T03:34:25.210</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\xamarin_logo.png">
+      <PackagePath>xamarin_logo.png</PackagePath>
+      <Modified>2019-04-10T03:34:25.870</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\add.png">
+      <PackagePath>add.png</PackagePath>
+      <Modified>2019-04-10T03:34:25.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\build\pdf.js">
+      <PackagePath>Assets\pdfjs\build\pdf.js</PackagePath>
+      <Modified>2019-06-01T11:43:10.500</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\build\pdf.worker.js">
+      <PackagePath>Assets\pdfjs\build\pdf.worker.js</PackagePath>
+      <Modified>2019-06-01T11:43:10.543</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\compatibility.js">
+      <PackagePath>Assets\pdfjs\web\compatibility.js</PackagePath>
+      <Modified>2019-06-01T11:43:11.898</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\debugger.js">
+      <PackagePath>Assets\pdfjs\web\debugger.js</PackagePath>
+      <Modified>2019-06-01T11:43:11.917</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\l10n.js">
+      <PackagePath>Assets\pdfjs\web\l10n.js</PackagePath>
+      <Modified>2019-06-01T11:43:12.712</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\viewer.js">
+      <PackagePath>Assets\pdfjs\web\viewer.js</PackagePath>
+      <Modified>2019-06-01T11:43:13.995</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\annotation-check.svg">
+      <PackagePath>Assets\pdfjs\web\images\annotation-check.svg</PackagePath>
+      <Modified>2019-06-01T11:43:11.930</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\annotation-comment.svg">
+      <PackagePath>Assets\pdfjs\web\images\annotation-comment.svg</PackagePath>
+      <Modified>2019-06-01T11:43:11.941</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\annotation-help.svg">
+      <PackagePath>Assets\pdfjs\web\images\annotation-help.svg</PackagePath>
+      <Modified>2019-06-01T11:43:11.950</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\annotation-insert.svg">
+      <PackagePath>Assets\pdfjs\web\images\annotation-insert.svg</PackagePath>
+      <Modified>2019-06-01T11:43:11.960</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\annotation-key.svg">
+      <PackagePath>Assets\pdfjs\web\images\annotation-key.svg</PackagePath>
+      <Modified>2019-06-01T11:43:11.971</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\annotation-newparagraph.svg">
+      <PackagePath>Assets\pdfjs\web\images\annotation-newparagraph.svg</PackagePath>
+      <Modified>2019-06-01T11:43:11.981</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\annotation-noicon.svg">
+      <PackagePath>Assets\pdfjs\web\images\annotation-noicon.svg</PackagePath>
+      <Modified>2019-06-01T11:43:11.992</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\annotation-note.svg">
+      <PackagePath>Assets\pdfjs\web\images\annotation-note.svg</PackagePath>
+      <Modified>2019-06-01T11:43:12.002</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\annotation-paragraph.svg">
+      <PackagePath>Assets\pdfjs\web\images\annotation-paragraph.svg</PackagePath>
+      <Modified>2019-06-01T11:43:12.012</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\grab.cur">
+      <PackagePath>Assets\pdfjs\web\images\grab.cur</PackagePath>
+      <Modified>2019-06-01T11:43:12.090</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\grabbing.cur">
+      <PackagePath>Assets\pdfjs\web\images\grabbing.cur</PackagePath>
+      <Modified>2019-06-01T11:43:12.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\images\loading-icon.gif">
+      <PackagePath>Assets\pdfjs\web\images\loading-icon.gif</PackagePath>
+      <Modified>2019-06-01T11:43:12.113</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\viewer.css">
+      <PackagePath>Assets\pdfjs\web\viewer.css</PackagePath>
+      <Modified>2019-06-01T11:43:13.978</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Assets\pdfjs\web\viewer.html">
+      <PackagePath>Assets\pdfjs\web\viewer.html</PackagePath>
+      <Modified>2019-06-01T11:43:13.985</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2019-04-10T03:34:25.212</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\bin\x86\Debug\GeoWorks.Mobile.UWP.xr.xml">
+      <PackagePath>GeoWorks.Mobile.UWP.xr.xml</PackagePath>
+      <Modified>2019-06-01T09:53:56.334</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2019-06-01T12:00:48.205</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2019-06-01T12:00:48.206</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2018-10-22T23:44:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\syncfusion.xamarin.core\17.1.0.49\lib\uap10.0\Syncfusion.Core.XForms.UWP\Syncfusion.Core.XForms.UWP.xr.xml">
+      <PackagePath>Syncfusion.Core.XForms.UWP\Syncfusion.Core.XForms.UWP.xr.xml</PackagePath>
+      <Modified>2019-05-27T07:34:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\syncfusion.xamarin.core\17.1.0.49\lib\uap10.0\Syncfusion.Core.XForms.UWP\ToggleIcons\ToggleCollapsedIcon.xaml">
+      <PackagePath>Syncfusion.Core.XForms.UWP\ToggleIcons\ToggleCollapsedIcon.xaml</PackagePath>
+      <Modified>2019-05-27T07:34:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\syncfusion.xamarin.core\17.1.0.49\lib\uap10.0\Syncfusion.Core.XForms.UWP\ToggleIcons\ToggleVisibleIcon.xaml">
+      <PackagePath>Syncfusion.Core.XForms.UWP\ToggleIcons\ToggleVisibleIcon.xaml</PackagePath>
+      <Modified>2019-05-27T07:34:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\syncfusion.xamarin.sfbusyindicator\17.1.0.49\lib\uap10.0\Syncfusion.SfBusyIndicator.UWP\Syncfusion.SfBusyIndicator.UWP.xr.xml">
+      <PackagePath>Syncfusion.SfBusyIndicator.UWP\Syncfusion.SfBusyIndicator.UWP.xr.xml</PackagePath>
+      <Modified>2019-05-27T07:07:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\syncfusion.xamarin.sfbusyindicator\17.1.0.49\lib\uap10.0\Syncfusion.SfBusyIndicator.UWP\Properties\Syncfusion.SfBusyIndicator.UWP.rd.xml">
+      <PackagePath>Syncfusion.SfBusyIndicator.UWP\Properties\Syncfusion.SfBusyIndicator.UWP.rd.xml</PackagePath>
+      <Modified>2019-04-08T06:58:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\syncfusion.xamarin.sfrangeslider\17.1.0.49\lib\uap10.0\Syncfusion.SfShared.UWP\Syncfusion.SfShared.UWP.xr.xml">
+      <PackagePath>Syncfusion.SfShared.UWP\Syncfusion.SfShared.UWP.xr.xml</PackagePath>
+      <Modified>2019-05-27T07:07:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\syncfusion.xamarin.sfrangeslider\17.1.0.49\lib\uap10.0\Syncfusion.SfShared.UWP\Properties\Syncfusion.SfShared.UWP.rd.xml">
+      <PackagePath>Syncfusion.SfShared.UWP\Properties\Syncfusion.SfShared.UWP.rd.xml</PackagePath>
+      <Modified>2019-04-08T06:58:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\syncfusion.xamarin.sfpdfviewer\17.1.0.49\lib\uap10.0\Syncfusion.SfPdfViewer.XForms.UWP\Final_PDFViewer_UWP_FontUpdate.ttf">
+      <PackagePath>Syncfusion.SfPdfViewer.XForms.UWP\Final_PDFViewer_UWP_FontUpdate.ttf</PackagePath>
+      <Modified>2019-04-08T06:49:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\syncfusion.xamarin.sfpdfviewer\17.1.0.49\lib\uap10.0\Syncfusion.SfPdfViewer.XForms.UWP\Font size Font.ttf">
+      <PackagePath>Syncfusion.SfPdfViewer.XForms.UWP\Font size Font.ttf</PackagePath>
+      <Modified>2019-04-08T06:49:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\syncfusion.xamarin.sfpdfviewer\17.1.0.49\lib\uap10.0\Syncfusion.SfPdfViewer.XForms.UWP\PdfViewer_FONT.ttf">
+      <PackagePath>Syncfusion.SfPdfViewer.XForms.UWP\PdfViewer_FONT.ttf</PackagePath>
+      <Modified>2019-04-08T06:49:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\syncfusion.xamarin.sfpdfviewer\17.1.0.49\lib\uap10.0\Syncfusion.SfPdfViewer.XForms.UWP\PdfViewer_Text_font.ttf">
+      <PackagePath>Syncfusion.SfPdfViewer.XForms.UWP\PdfViewer_Text_font.ttf</PackagePath>
+      <Modified>2019-04-08T06:49:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\syncfusion.xamarin.sfpdfviewer\17.1.0.49\lib\uap10.0\Syncfusion.SfPdfViewer.XForms.UWP\Signature_PDFViewer_FONT.ttf">
+      <PackagePath>Syncfusion.SfPdfViewer.XForms.UWP\Signature_PDFViewer_FONT.ttf</PackagePath>
+      <Modified>2019-04-08T06:49:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\syncfusion.xamarin.sfpdfviewer\17.1.0.49\lib\uap10.0\Syncfusion.SfPdfViewer.XForms.UWP\Syncfusion.SfPdfViewer.XForms.UWP.xr.xml">
+      <PackagePath>Syncfusion.SfPdfViewer.XForms.UWP\Syncfusion.SfPdfViewer.XForms.UWP.xr.xml</PackagePath>
+      <Modified>2019-05-27T07:46:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\syncfusion.xamarin.sfpdfviewer\17.1.0.49\lib\uap10.0\Syncfusion.SfPdfViewer.XForms.UWP\Properties\Syncfusion.SfPdfViewer.XForms.UWP.rd.xml">
+      <PackagePath>Syncfusion.SfPdfViewer.XForms.UWP\Properties\Syncfusion.SfPdfViewer.XForms.UWP.rd.xml</PackagePath>
+      <Modified>2019-04-08T06:49:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\syncfusion.xamarin.sfrangeslider\17.1.0.49\lib\uap10.0\Syncfusion.SfInput.UWP\Syncfusion.SfInput.UWP.xr.xml">
+      <PackagePath>Syncfusion.SfInput.UWP\Syncfusion.SfInput.UWP.xr.xml</PackagePath>
+      <Modified>2019-05-27T07:10:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\syncfusion.xamarin.sfrangeslider\17.1.0.49\lib\uap10.0\Syncfusion.SfInput.UWP\Properties\Syncfusion.SfInput.UWP.rd.xml">
+      <PackagePath>Syncfusion.SfInput.UWP\Properties\Syncfusion.SfInput.UWP.rd.xml</PackagePath>
+      <Modified>2019-04-08T06:59:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\.nuget\packages\xamarin.forms\4.0.0.471375\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
+      <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
+      <Modified>2019-05-29T00:56:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2019-06-01T11:43:50.209</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Usuario\Downloads\GeoWorks.Mobile\a\GeoWorks.Mobile\GeoWorks.Mobile.UWP\bin\x86\Debug\Core\GeoWorks.Mobile.UWP.exe">
+      <PackagePath>GeoWorks.Mobile.UWP.exe</PackagePath>
+      <Modified>2019-06-01T12:00:52.854</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27404.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27404.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27404.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27404.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27404.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27404.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27505.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27505.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27505.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27505.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27505.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27505.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

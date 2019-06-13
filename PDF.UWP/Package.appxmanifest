@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap4="http://schemas.microsoft.com/appx/manifest/uap/windows10/4" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:uap2="http://schemas.microsoft.com/appx/manifest/uap/windows10/2" xmlns:iot="http://schemas.microsoft.com/appx/manifest/iot/windows10" xmlns:uap6="http://schemas.microsoft.com/appx/manifest/uap/windows10/6" IgnorableNamespaces="uap mp uap4 uap3 uap2 iot">
+  <Identity Name="844ea2d8-17a2-45d3-bae9-1300e7e11417" Publisher="CN=3da58784-0378-44fd-be09-da04d3472cdd" Version="1.0.0.0" />
+  <mp:PhoneIdentity PhoneProductId="ec0cc741-fd3e-485c-81be-68815c480690" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>GeoWorks.Mobile.UWP</DisplayName>
+    <PublisherDisplayName>3da58784-0378-44fd-be09-da04d3472cdd</PublisherDisplayName>
+    <Logo>Assets\ic_geo_works.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="GeoWorks.UWP.App">
+      <uap:VisualElements DisplayName="GeoWorks.UWP" Square150x150Logo="Assets\ic_geo_works.png" Square44x44Logo="Assets\ic_geo_works.png" Description="GeoWorks UWP" BackgroundColor="transparent">
+        <uap:DefaultTile Square310x310Logo="Assets\ic_geo_works.png" Square71x71Logo="Assets\ic_geo_works.png" Wide310x150Logo="Assets/ic_geo_works.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+      </uap:VisualElements>
+      <Extensions>
+        <uap:Extension Category="windows.fileSavePicker">
+          <uap:FileSavePicker>
+            <uap:SupportedFileTypes>
+              <uap:SupportsAnyFileType />
+            </uap:SupportedFileTypes>
+          </uap:FileSavePicker>
+        </uap:Extension>
+        <uap:Extension Category="windows.fileOpenPicker">
+          <uap:FileOpenPicker>
+            <uap:SupportedFileTypes>
+              <uap:SupportsAnyFileType />
+            </uap:SupportedFileTypes>
+          </uap:FileOpenPicker>
+        </uap:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <uap:Capability Name="picturesLibrary" />
+    <iot:Capability Name="systemManagement" />
+    <uap:Capability Name="sharedUserCertificates" />
+    <uap:Capability Name="musicLibrary" />
+  </Capabilities>
+</Package>

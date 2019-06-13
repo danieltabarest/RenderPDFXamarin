@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="Syncfusion.SfPdfViewer.XForms.UWP" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="Syncfusion.SfPdfViewer.XForms.UWP">
+				<NamedResource name="Final_PDFViewer_UWP_FontUpdate.ttf" uri="ms-resource://Syncfusion.SfPdfViewer.XForms.UWP/Files/Syncfusion.SfPdfViewer.XForms.UWP/Final_PDFViewer_UWP_FontUpdate.ttf">
+					<Candidate type="Path">
+						<Value>Syncfusion.SfPdfViewer.XForms.UWP\Final_PDFViewer_UWP_FontUpdate.ttf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Font size Font.ttf" uri="ms-resource://Syncfusion.SfPdfViewer.XForms.UWP/Files/Syncfusion.SfPdfViewer.XForms.UWP/Font size Font.ttf">
+					<Candidate type="Path">
+						<Value>Syncfusion.SfPdfViewer.XForms.UWP\Font size Font.ttf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PdfViewer_FONT.ttf" uri="ms-resource://Syncfusion.SfPdfViewer.XForms.UWP/Files/Syncfusion.SfPdfViewer.XForms.UWP/PdfViewer_FONT.ttf">
+					<Candidate type="Path">
+						<Value>Syncfusion.SfPdfViewer.XForms.UWP\PdfViewer_FONT.ttf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PdfViewer_Text_font.ttf" uri="ms-resource://Syncfusion.SfPdfViewer.XForms.UWP/Files/Syncfusion.SfPdfViewer.XForms.UWP/PdfViewer_Text_font.ttf">
+					<Candidate type="Path">
+						<Value>Syncfusion.SfPdfViewer.XForms.UWP\PdfViewer_Text_font.ttf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Signature_PDFViewer_FONT.ttf" uri="ms-resource://Syncfusion.SfPdfViewer.XForms.UWP/Files/Syncfusion.SfPdfViewer.XForms.UWP/Signature_PDFViewer_FONT.ttf">
+					<Candidate type="Path">
+						<Value>Syncfusion.SfPdfViewer.XForms.UWP\Signature_PDFViewer_FONT.ttf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Syncfusion.SfPdfViewer.XForms.UWP.xr.xml" uri="ms-resource://Syncfusion.SfPdfViewer.XForms.UWP/Files/Syncfusion.SfPdfViewer.XForms.UWP/Syncfusion.SfPdfViewer.XForms.UWP.xr.xml">
+					<Candidate type="Path">
+						<Value>Syncfusion.SfPdfViewer.XForms.UWP\Syncfusion.SfPdfViewer.XForms.UWP.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Implementation">
+					<ResourceMapSubtree name="UI">
+						<ResourceMapSubtree name="EditTextAnnotation">
+							<NamedResource name="ContentDialogEx.xbf" uri="ms-resource://Syncfusion.SfPdfViewer.XForms.UWP/Files/Syncfusion.SfPdfViewer.XForms.UWP/Implementation/UI/EditTextAnnotation/ContentDialogEx.xbf">
+								<Candidate type="EmbeddedData">
+									<Base64Value>[Embedded Binary Data]</Base64Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Properties">
+					<NamedResource name="Syncfusion.SfPdfViewer.XForms.UWP.rd.xml" uri="ms-resource://Syncfusion.SfPdfViewer.XForms.UWP/Files/Syncfusion.SfPdfViewer.XForms.UWP/Properties/Syncfusion.SfPdfViewer.XForms.UWP.rd.xml">
+						<Candidate type="Path">
+							<Value>Syncfusion.SfPdfViewer.XForms.UWP\Properties\Syncfusion.SfPdfViewer.XForms.UWP.rd.xml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://Syncfusion.SfPdfViewer.XForms.UWP/Files/Syncfusion.SfPdfViewer.XForms.UWP/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>
